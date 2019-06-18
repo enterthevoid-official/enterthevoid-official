@@ -189,14 +189,14 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(7) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(7) .nav-link:focus {
 
-	background-color: #447fca;
+	background-color: #7f4e4e;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(8).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(8) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(8) .nav-link:focus {
 
-	background-color: #447fca;
+	background-color: #7f4e4e;
 }
 
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
@@ -234,6 +234,17 @@ button:focus { outline: none; }
 /* footer */
 .tm-social-link {
 	background-color: rgba(255,255,255,0.40);
+    color: black;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+/* contato */
+.tm-social-link-contato {
+	background-color: rgba(255,0,0,0.5);
     color: black;
     display: inline-block;
     width: 35px;
