@@ -112,7 +112,7 @@ button:focus { outline: none; }
 .cd-slider-nav a,
 .navbar-nav .nav-link {
 	background-color: transparent;
-	color: black;
+	color: #189790;
     display: table-cell;
     font-weight: 400;
     font-size: 1em;
@@ -205,6 +205,13 @@ button:focus { outline: none; }
 	display: inline-block;
 	width: 100%;
 }
+ /* contact page */
+ .tm-bg-black-translucent { background-color: rgba(20,20,20,0.8); }
+ .tm-bg-black-translucent p { color: white; }
+ .tm-textbox {
+ 	display: inline-block;
+ 	width: 100%;
+ }
 
 .cd-hero-slider h2, .cd-hero-slider p {
 	max-width: none;
@@ -227,6 +234,11 @@ button:focus { outline: none; }
 
 .cd-hero-slider h2.tm-text-title {
 	color: #000002;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+.cd-hero-slider h2.tm-text-title-white {
+	color: #ffffff;
     font-size: 1.6em;
     font-weight: 400;
 }
@@ -511,7 +523,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .tm-textbox-padding { padding: 35px 30px; }
 
 .cd-hero-slider h2.tm-contact-info {
-	color: black;
+	color: white;
 	font-size: 1.4em;
 }
 
