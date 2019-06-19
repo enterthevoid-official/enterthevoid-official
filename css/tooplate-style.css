@@ -231,29 +231,6 @@ button:focus { outline: none; }
     font-weight: 400;
 }
 
-/* footer */
-.tm-social-link {
-	background-color: rgba(255,255,255,0.40);
-    color: black;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    padding-top: 5px;
-    margin-right: 10px;
-}
-/* contato */
-.tm-social-link-contato {
-	background-color: rgba(255,0,0,0.5);
-    color: black;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    padding-top: 5px;
-    margin-right: 10px;
-}
-
 .tm-social-link-contato-tt {
 	background-color: rgba(54,216,255,0.8);
     color: black;
@@ -266,7 +243,7 @@ button:focus { outline: none; }
 }
 
 .tm-social-link-contato-fb {
-	background-color: rgba(66,103,178,0.8);
+	background-color: rgba(23, 120, 242,0.8);
     color: black;
     display: inline-block;
     width: 35px;
@@ -288,7 +265,7 @@ button:focus { outline: none; }
 	padding-top: 5px;
 	margin-right: 10px;
 
-background: linear-gradient(45deg, #F44747, #EEDC31, #7FDB6A, #0E68CE);
+background: linear-gradient(45deg, #F44747, #EEDC31 20%, #7FDB6A, #0E68CE);
 background-size: 300% 300%;
 
 -webkit-animation: rainbow 5s ease infinite;
@@ -544,7 +521,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 .tm-copyright-text {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
     display: inline-block;
     font-size: 1.8rem;
